@@ -12,7 +12,7 @@ git clone https://github.com/Aditya-Thakor/team-project.git
 
 ## Project preview
 
-<!-- ```cmd
+```cmd
 https://themewagon.github.io/Nova-Bootstrap5_beta1/index.html
 ```
--->
+
