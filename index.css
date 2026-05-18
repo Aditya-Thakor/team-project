@@ -188,3 +188,16 @@ body {
         grid-column: span 1;
     }
 }
+
+
+/* Logo Section */
+.rt{
+    height: 200px;
+    width: 100vw;
+    display: block;
+
+     /* background-image: url(../../assets/brands.svg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center; */ /*no need*/
+}
