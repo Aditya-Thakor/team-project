@@ -1,0 +1,114 @@
+.main-div {
+    height: auto;
+    background-color: #F3F3F3;
+    padding: 25px;
+}
+
+.hed-titel {
+    text-align: center;
+    font-weight: 700;
+}
+
+.hed-stop {
+    text-align: center;
+    color: #9c9898;
+
+}
+
+.contact-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    width: 100%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Full width for the Message field */
+.full-width {
+    grid-column: span 2;
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    color: #888;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 15px 15px 15px 45px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.input-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0b5ed7;
+}
+.card1{
+    background-color: white;
+    text-align: center;
+    height: 115px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.contact{
+    background-color: #0b5ed7;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width {
+        grid-column: span 1;
+    }
+}

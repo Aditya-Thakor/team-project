@@ -20,5 +20,24 @@
     <footer id="footer" ></footer>
     
     <script src="./index.js"></script>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(window).on("scroll",function(){
+            if($(this).scrollTop()>70){
+                $("#header").css(
+                    {
+                    "background-color":"white",
+                    "box-shadow": "rgb(0 0 0 / 6%) 0px 4px 10px"
+                    }
+                
+                )
+            }else{
+                $("#header").css({
+                    "background-color":"#ffffff00",
+                    "box-shadow":"none"
+                })
+            }
+        })
+    </script>
 </body>
 </html>

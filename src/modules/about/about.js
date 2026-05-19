@@ -1,54 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .about-section {
-            background: #F3F3F3;
-            padding-top: 7%;
-            padding-bottom: 4%;
-        }
-
-        .sec3-h3 {
-            font-size: 40px;
-            font-weight: 700;
-            color: #323450;
-            margin-bottom: 25px;
-        }
-
-        .about-i {
-            margin-right: 15px;
-            margin-top: 4px;
-        }
-
-        .about-li {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
-        .but-l{
-            color: white;
-            background-color:rgb(47, 128, 237);
-            padding: 15px 30px;
-            font-weight: 500;
-            font-size: 18px;
-        }
-    </style>
-
-
-</head>
-
-<body>
-
-    <section class="about-section">
+`<section class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -90,9 +40,4 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <script src="../../../js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+    </section>`
