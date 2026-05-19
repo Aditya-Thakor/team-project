@@ -1,0 +1,11 @@
+.rt{
+    height: 200px;
+    color: azure;
+    width: 100%;
+
+
+     background-image: url(../../assets/brands.svg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
