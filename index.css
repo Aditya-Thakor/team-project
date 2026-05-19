@@ -210,6 +210,40 @@ header {
     /* background-image: url(../../assets/brands.svg);
      background-size: 100%;
      background-repeat: no-repeat;
+     background-position: center; */ /*no need*/
+}
+
+/* About */
+ .about-section {
+            background: #F3F3F3;
+            padding-top: 7%;
+            padding-bottom: 4%;
+        }
+
+        .sec3-h3 {
+            font-size: 40px;
+            font-weight: 700;
+            color: #323450;
+            margin-bottom: 25px;
+        }
+
+        .about-i {
+            margin-right: 15px;
+            margin-top: 4px;
+        }
+
+        .about-li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        .but-l{
+            color: white;
+            background-color:rgb(47, 128, 237);
+            padding: 15px 30px;
+            font-weight: 500;
+            font-size: 18px;
+        }
      background-position: center; */
     /*no need*/
 }
