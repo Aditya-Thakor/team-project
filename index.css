@@ -7,8 +7,16 @@ html,
 body {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
+/* Header */
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 111;
+}
 
 
 /* Specializin */
