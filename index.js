@@ -6,7 +6,7 @@ async function AddComponent(id,file) {
 }
 
 AddComponent("header", "./src/modules/header/header.html")
-AddComponent("hero-section", "./src/modules/hero/hero.html")
+AddComponent("hero-section", "./src/modules/hero/hero.js")
 AddComponent("special-section", "./src/modules/specializing/specializing.html")
 AddComponent("about-section", "./src/modules/about/about.html")
 AddComponent("pricing-section", "./src/modules/pricing/pricing.html")

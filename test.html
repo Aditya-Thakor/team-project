@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>team-project-testing</title>
 </head>
 <body>
@@ -20,5 +22,25 @@
     <footer id="footer" ></footer>
     
     <script src="./index.js"></script>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(window).on("scroll",function(){
+            if($(this).scrollTop()>70){
+                $("#header").css(
+                    {
+                    "background-color":"white",
+                    "box-shadow": "rgb(0 0 0 / 6%) 0px 4px 10px"
+                    }
+                
+                )
+            }else{
+                $("#header").css({
+                    "background-color":"#ffffff00",
+                    "box-shadow":"none"
+                })
+            }
+        })
+    </script>
+     <script src="../../../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
