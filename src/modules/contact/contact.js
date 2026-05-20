@@ -1,4 +1,4 @@
- <div class="main-div ">
+` <div class="main-div ">
         <div class="container">
             <div class="row">
                 <h1 class="hed-titel">Get in touch</h1>
@@ -68,4 +68,4 @@
                     </div>
 
                 </div>
-            </div>
+            </div>`
